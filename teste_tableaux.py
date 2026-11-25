@@ -32,3 +32,7 @@ testar("Fórmula do demo (sem premissas)", ArgumentForm(conclusion=(P >> (Q >> R
 testar("Afirmação do consequente", ArgumentForm(P >> Q, Q, conclusion=P))
 testar("Negação do antecedente", ArgumentForm(P >> Q, ~P, conclusion=~Q))
 testar("Disjunção implica conjunção", ArgumentForm(P | Q, conclusion=P & Q))
+
+#testar("Teste prof 1", ArgumentForm(, conclusion=))
+#testar("Teste prof 2", ArgumentForm(, conclusion=))
+#testar("Teste prof 3", ArgumentForm(, conclusion=))
